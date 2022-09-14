@@ -1,10 +1,11 @@
 {
   "name": "trello-nightmode",
   "version": "0.0.1",
-  "description": "Trello nightmode Extension for Firefox",
-  "main": "index.js",
+  "description": " Trello Nightmode Extension for Firefox ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "copyfiles -u 1 ./src/* ./trello-nightmode-dist/",
+    "start:firefox": "npm run build && web-ext run --source-dir ./trello-nightmode-dist/"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/gohanko/trello-nightmode#readme",
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "web-ext": "^7.2.0"
   }
 }

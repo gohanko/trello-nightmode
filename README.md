@@ -1,2 +1,2 @@
 # trello-nightmode
-Trello nightmode for Firefox
+Trello Nightmode Extension for Firefox 
