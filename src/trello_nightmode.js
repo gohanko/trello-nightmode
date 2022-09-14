@@ -8,6 +8,6 @@ theme_config = {
 function applyTheme(theme) {
     theme_config[theme].entries().forEach(([key, value]) => {
         var element = document.querySelector(key);
-        element.style.background_colpr = value;
+        element.style.background_color = value;
     });
 }

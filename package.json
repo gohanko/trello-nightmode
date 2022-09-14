@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/gohanko/trello-nightmode.git"
+    "url": "git@github.com:gohanko/trello-nightmode.git"
   },
   "author": "Yii Kuo Chong",
   "license": "",
